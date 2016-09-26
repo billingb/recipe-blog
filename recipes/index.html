@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="row">
+<div class="col-md-offset-1 col-md-10">
+<ul>
+  {% assign sorted_recipes = (site.data.recipes | sort: 'name') %}
+  {% for recipe_hash in sorted_recipes %}
+  {% assign recipe = recipe_hash[1] %}
+  <li>
+    <a href="{{ recipe.url }}">{{ recipe.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
+</div>
+</div>

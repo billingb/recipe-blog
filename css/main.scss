@@ -1,0 +1,132 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "variables";
+@import "bootstrap";
+@import "bootswatch";
+
+ul.text-list {
+  list-style: none;
+}
+
+footer {
+  border-top: solid thin $gray-lighter;
+  background-color: $body-bg;
+  padding: 20px 0 100px 0;
+  margin-top: 10px;
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      clear: left;
+    }
+  }
+}
+
+.social-media-header {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+
+  li {
+    clear: none;
+    float: left;
+    padding-right: 3px;
+    margin-top: 0;
+  }
+}
+
+.icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+}
+
+.tooliconbar {
+  @extend .col-md-10;
+  @extend .col-md-offset-1;
+  @extend .text-center;
+  padding-top: 15px;
+}
+
+.toolicon {
+  height: 50px;
+  padding: 0 10px 10px 10px;
+}
+
+h2 {
+  margin-top: 35px;
+}
+
+.list-header {
+  display: inline;
+}
+
+// Image hovereffect styling
+.portfolio-screenshot {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+}
+
+.portfolio-screenshot img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.portfolio-screenshot .caption {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background: rgba(50, 50, 50, 0.80);
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.portfolio-screenshot:hover .caption {
+  opacity: 1;
+  transition: opacity .35s ease-in-out;
+  -moz-transition: opacity .35s ease-in-out;
+}
+
+ul.workExperience {
+  @extend .row;
+  list-style: none;
+  padding-left: 0;
+}
+
+li.entry {
+  @extend .col-md-12;
+  @extend .clearfix;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+img.project-screenshot {
+  @extend .pull-left;
+  max-width: 250px;
+}
+
+div.description {
+  @extend .pull-left;
+}

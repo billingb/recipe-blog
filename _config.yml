@@ -1,0 +1,13 @@
+# Site settings
+title: Dad's Light Recipes
+email: billingb@gmail.com
+description: >
+  Healthy recipes that taste great!
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "https://billingb.github.io/" # the base hostname & protocol for your site
+twitter_username: brendanbill
+github_username:  billingb
+linkedin_id: brendan-billingsley-3894bb4
+
+# Build settings
+# markdown: kramdown
