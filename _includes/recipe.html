@@ -1,7 +1,149 @@
 {% assign recipe = site.data.recipes[page.recipe] %}
+{% assign nutrition = recipe.nutrition %}
 <div class="recipe">
-
   <header class="recipe-header">
-    <h1>{{ recipe.name }}<small>{{recipe.date}}</small></h1>
+    <div class="header-content">
+      <div class="name-and-desc">
+        <h1>{{ recipe.name }}</small></h1>
+        <p class="recipe-description">
+          {{recipe.description}}
+        </p>
+        <div class="recipe-summary">
+          <div class="summary-item">
+            <div class="value">{{recipe.active}}</div>
+            <div class="label">Active Time</div>
+          </div>
+          <div class="summary-item">
+            <div class="value">{{recipe.total}}</div>
+            <div class="label">Total Time</div>
+          </div>
+          <div class="summary-item">
+            <div class="value">{{recipe.yield}}</div>
+            <div class="label">Yield</div>
+          </div>
+        </div>
+      </div>
+      <div class="recipe-photo">
+        <!--if photo then put here.-->
+      </div>
+    </div>
   </header>
+  <div class="ingredients">
+    <h3>Ingredients</h3>
+    <ul class="ingredients-{{recipe.ingredients_type}}">
+      {% for ingredient_group in recipe.ingredients %}
+      <li>
+        {{ingredient_group.label}}
+        {% if ingredient_group.children %}
+        <ul>
+          {% for ingredient in ingredient_group.children %}
+          <li>{{ingredient}}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="directions">
+    <h3>Directions</h3>
+    <ol>
+      {% for step in recipe.directions %}
+      <li>{{step}}</li>
+      {% endfor %}
+    </ol>
+  </div>
+    <div itemscope="" itemtype="http://schema.org/NutritionInformation" class="nutritionLabel">
+      <div class="title">Nutrition Facts</div>
+      <div class="cf">
+        <div class="name inline">Serving Size {{nutrition.serving_size}} </div>
+      </div><!-- closing class="cf" -->
+      <div class="bar1"></div>
+      <div class="line m"><b>Amount Per Serving</b></div>
+      <div class="line">
+        <div class="fr">Calories from Fat {{nutrition.calories_from_fat}}</div>
+        <div><b>Calories</b> <span itemprop="calories">{{nutrition.calories}}</span></div>
+      </div>
+      <div class="bar2"></div>
+      <div class="line ar"><b>% Daily Value<sup>*</sup></b></div>
+      <div class="line">
+        <div class="dv"><b>{{nutrition.total_fat_dv}}</b>%</div>
+        <b>Total Fat</b> <span itemprop="fatContent">{{nutrition.total_fat}}
+	</span></div>
+      <div class="line indent">
+        <div class="dv"><b>{{nutrition.saturated_fat_dv}}</b>%</div>
+        Saturated Fat <span itemprop="saturatedFatContent">{{nutrition.saturated_fat}}
+	</span></div>
+      <div class="line indent">
+        <i>Trans</i> Fat <span itemprop="transFatContent">{{nutrition.trans_fat}}
+	</span></div>
+      <div class="line">
+        <div class="dv"><b>{{nutrition.cholesterol_dv}}</b>%</div>
+        <b>Cholesterol</b> <span itemprop="cholesterolContent">{{nutrition.cholesterol}}
+	</span></div>
+      <div class="line">
+        <div class="dv"><b>{{nutrition.sodium_dv}}</b>%</div>
+        <b>Sodium</b> <span itemprop="sodiumContent">{{nutrition.sodium}}</span></div>
+      <div class="line">
+        <div class="dv"><b>{{nutrition.total_carbohydrate_dv}}</b>%</div>
+        <b>Total Carbohydrates</b> <span itemprop="carbohydrateContent">{{nutrition.total_carbohydrate}}</span></div>
+      <!--<div class="line indent">-->
+        <!--<div class="dv"><b>0</b>%</div>-->
+        <!--Dietary Fiber <span itemprop="fiberContent">0g-->
+	<!--</span></div>-->
+      <div class="line indent">Sugars <span itemprop="sugarContent">{{nutrition.sugars}}</span></div>
+      <div class="line"><b>Protein</b> <span itemprop="proteinContent">{{nutrition.protein}}</span></div>
+      <div class="bar1"></div>
+      <div class="line vitaminA">
+        <div class="dv">0%</div>
+        Vitamin A
+      </div>
+      <div class="line vitaminC">
+        <div class="dv">0%</div>
+        Vitamin C
+      </div>
+      <div class="line calcium">
+        <div class="dv">0%</div>
+        Calcium
+      </div>
+      <div class="line iron">
+        <div class="dv">0%</div>
+        Iron
+      </div>
+      <div class="line">
+        <b>Nutrition Grade {{nutrition.grade}}</b>
+      </div>
+      <div class="dvCalorieDiet line">
+        <div class="calorieNote">
+          <span class="star">*</span> Percent Daily Values are based on a 2000 calorie diet.
+          <br>
+         <!-- closing class="ingredientListDiv" -->
+        </div><!-- closing class="calorieNote" -->
+      </div><!-- closing class="dvCalorieDiet line" -->
+  </div>
+  {% if recipe.compare %}
+  <div class="compare">
+    <h3>Nutrition Comparison</h3>
+    <div class="compare-recipe">
+      <h4>Comparison Recipe</h4>
+      {% if recipe.compare_recipe_url %}
+      <a href="{{recipe.compare_recipe_url}}">{{recipe.compare_recipe}}</a>
+      {% else %}
+      {{recipe.compare_recipe}}
+      {% endif %}
+    </div>
+    <div class="details">
+      <h4>Comparison</h4>
+      <ul>
+        {% for diff in recipe.compare %}
+        <li>{{diff}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="how">
+      <h4>How I Did It</h4>
+      <p>{{recipe.how}}</p>
+    </div>
+  </div>
+  {% endif %}
 </div>

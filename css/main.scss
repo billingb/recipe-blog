@@ -5,6 +5,7 @@
 @import "variables";
 @import "bootstrap";
 @import "bootswatch";
+@import "nutrition";
 
 ul.text-list {
   list-style: none;
@@ -48,85 +49,49 @@ footer {
   }
 }
 
-.tooliconbar {
-  @extend .col-md-10;
-  @extend .col-md-offset-1;
+h1 {
   @extend .text-center;
-  padding-top: 15px;
 }
 
-.toolicon {
-  height: 50px;
-  padding: 0 10px 10px 10px;
+.recipe, .header-content {
+  @extend .row;
 }
 
-h2 {
-  margin-top: 35px;
+.recipe-header {
+  @extend .col-xs-12;
 }
 
-.list-header {
-  display: inline;
+.name-and-desc {
+  @extend .col-md-6;
 }
 
-// Image hovereffect styling
-.portfolio-screenshot {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  float: left;
-  margin-top: 10px;
+.recipe-photo {
+  @extend .col-md-6;
 }
 
-.portfolio-screenshot img {
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
+.recipe-summary {
+  @extend .text-center;
 }
 
-.portfolio-screenshot .caption {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  left: 0;
-  bottom: 0;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  background: rgba(50, 50, 50, 0.80);
-  opacity: 0;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+.recipe-summary .summary-item {
+  display: inline-block;
+  border-right: solid thin $gray-lighter;
+  padding: 4px;
 
-  p {
-    font-size: 14px;
+  .label {
+    color: #000;
   }
 }
 
-.portfolio-screenshot:hover .caption {
-  opacity: 1;
-  transition: opacity .35s ease-in-out;
-  -moz-transition: opacity .35s ease-in-out;
+.ingredients {
+  @extend .col-sm-4;
 }
 
-ul.workExperience {
-  @extend .row;
-  list-style: none;
-  padding-left: 0;
+.directions {
+  @extend .col-sm-8;
 }
 
-li.entry {
-  @extend .col-md-12;
-  @extend .clearfix;
-  margin-top: 10px;
-  margin-bottom: 20px;
+.nutrition {
+  //@extend .col-md-12;
 }
 
-img.project-screenshot {
-  @extend .pull-left;
-  max-width: 250px;
-}
-
-div.description {
-  @extend .pull-left;
-}
