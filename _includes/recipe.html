@@ -3,11 +3,8 @@
 <div class="recipe">
   <header class="recipe-header">
     <div class="header-content">
+      <h1>{{ recipe.name }}</h1>
       <div class="name-and-desc">
-        <h1>{{ recipe.name }}</small></h1>
-        <p class="recipe-description">
-          {{recipe.description}}
-        </p>
         <div class="recipe-summary">
           <div class="summary-item">
             <div class="value">{{recipe.active}}</div>
@@ -22,14 +19,21 @@
             <div class="label">Yield</div>
           </div>
         </div>
+        <p class="recipe-description">
+          {{recipe.description}}
+        </p>
       </div>
       <div class="recipe-photo">
-        <!--if photo then put here.-->
+        {% if recipe.photo %}
+        <img src="/images/{{recipe.photo}}" class="img-responsive center-block">
+        {% endif %}
       </div>
     </div>
   </header>
+  <div class="col-sm-12">
+  <div class="row">
   <div class="ingredients">
-    <h3>Ingredients</h3>
+    <h4>Ingredients</h4>
     <ul class="ingredients-{{recipe.ingredients_type}}">
       {% for ingredient_group in recipe.ingredients %}
       <li>
@@ -46,13 +50,16 @@
     </ul>
   </div>
   <div class="directions">
-    <h3>Directions</h3>
+    <h4>Directions</h4>
     <ol>
       {% for step in recipe.directions %}
       <li>{{step}}</li>
       {% endfor %}
     </ol>
   </div>
+  </div>
+  </div>
+  <div class="nutrition">
     <div itemscope="" itemtype="http://schema.org/NutritionInformation" class="nutritionLabel">
       <div class="title">Nutrition Facts</div>
       <div class="cf">
@@ -120,6 +127,7 @@
          <!-- closing class="ingredientListDiv" -->
         </div><!-- closing class="calorieNote" -->
       </div><!-- closing class="dvCalorieDiet line" -->
+    </div>
   </div>
   {% if recipe.compare %}
   <div class="compare">
