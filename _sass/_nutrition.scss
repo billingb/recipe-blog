@@ -10,6 +10,9 @@
   line-height: normal;
   clear: both;
   width: 220px;
+  @media print {
+    width: 170px;
+  }
 }
 
 .nutritionLabel .title {
