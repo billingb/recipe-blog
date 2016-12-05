@@ -5,13 +5,17 @@ date: 2016-10-01
 yield: 29 cookies
 active: 20 minutes
 total: 35 minutes
-description: My healthier but still dessert choclate chip cookie receipe is my go to for any occasion. This cookie always bring compliments and is often requested by friends and coworkers.
+description: |
+  My healthier but still dessert choclate chip cookie receipe is my go to for any occasion. This cookie always
+  gets compliments and is often requested by friends and coworkers. These cookies are best if they aren't overcooked,
+  if in doubt pull them out a little sooner. The recipe calls for Pecans, but you can substitute other nuts or leave the
+  nuts out entirely. You may want to double the recipe if you want a large batch of cookies.
 ingredients_type: complex
 ingredients:
   -
     children:
       - 2 T. Butter
-      - 3 T. Canola Oil
+      - 2 T. Canola Oil
       - 3/4 C. Granulated Sugar
       - 1 t. Molasses
   -
@@ -34,28 +38,31 @@ directions:
   - Beat in the egg and vanilla extract.
   - Mix flour, baking soda and salt in small bowl, then slowly beat into batter.
   - Stir in pecans and chocolate chips, mix longer if you want pecans broken up.
+  - Place level tablespoons of batter on a greased cookie sheet.
   - Bake for 10-12 minutes until just turning golden brown. Do not overcook unless you like crunchy cookies. Cool on sheets for 2-5 minutes; remove to wire racks to cool before storing.
 nutrition:
   serving_size: 1 cookie
-  calories: 83
-  calories_from_fat: 32
-  total_fat: 3.6g
-  total_fat_dv: 6
-  saturated_fat: 1.5g
-  saturated_fat_dv: 7
+  calories: 91
+  calories_from_fat: 39
+  total_fat: 4.3g
+  total_fat_dv: 7
+  saturated_fat: 1.6g
+  saturated_fat_dv: 8
   trans_fat: 0g
   cholesterol: 9mg
   cholesterol_dv: 3
-  sodium: 60mg
+  sodium: 72mg
   sodium_dv: 3
-  total_carbohydrate: 11g
+  potassium: 34mg
+  potassium_dv: 1
+  total_carbohydrate: 12g
   total_carbohydrate_dv: 4
   dietary_fiber: 1g
-  sugars: 7.5g
-  protein: 1.5g
+  sugars: 7.4g
+  protein: 1.3g
   grade: D
 compare:
-  - Reduced calories from 110 to 83 per cookie.
+  - Reduced calories from 110 to 91 per cookie.
   - Reduced fat from 7g to 4g and saturated fat from 3.5g to 1.5g.
   - Reduced sugar from 10g to 7.5g
 compare_recipe: ORIGINAL NESTLÉ® TOLL HOUSE® CHOCOLATE CHIP COOKIES
