@@ -1,0 +1,88 @@
+name: Double Chocolate Chip Cookies
+url: double-chocolate-chip-cookies
+photo: DoubleChocolateChipCookies.jpg
+date: 2016-12-14
+yield: 28 cookies
+active: 20 minutes
+total: 35 minutes
+description: |
+  A double chocolate chip version of my classic chocolate chip cookies. These are my kids favorite cookie I bake.
+  These cookies are best if they aren't overcooked, if in doubt pull them out a little sooner. If you like nuts
+  consider adding a 1/2 cup of walnuts or any other nuts. You may want to double the recipe if you want a large batch of cookies.
+ingredients_type: complex
+ingredients:
+  -
+    children:
+      - 2 T. Butter
+      - 2 T. Canola Oil
+      - 3/4 C. Granulated Sugar
+      - 1 t. Molasses
+  -
+    children:
+      - 1 Large Egg
+      - 2 t. Vanilla
+  -
+    children:
+      - 1/4 C. Dutch Processed Cocoa Powder
+      - 1/2 C. White Flour
+      - 1/2 C. Whole Wheat Flour
+      - 1/2 t. Baking Soda
+      - 1/2 t. Salt
+  -
+    children:
+      - 3/4 C. Chocolate Chips
+directions:
+  - Preheat oven to 350.
+  - Beat the butter, oil, sugar and mollasses in a stand mixer on medium-high until creamy.
+  - Beat in the egg and vanilla extract.
+  - Mix cocoa, flour, baking soda and salt in small bowl, then beat into batter.
+  - Stir in chocolate chips and nuts if desired.
+  - Place level tablespoons of batter on a greased cookie sheet.
+  - Bake for 10-12 minutes. Do not overcook unless you like crunchy cookies. Cool on sheets for 5 minutes; remove to wire racks to cool before storing.
+nutrition:
+  serving_size: 1 cookie
+  calories: 82
+  calories_from_fat: 31
+  total_fat: 3.5g
+  total_fat_dv: 5
+  saturated_fat: 1.7g
+  saturated_fat_dv: 8
+  trans_fat: 0g
+  cholesterol: 10mg
+  cholesterol_dv: 3
+  sodium: 77mg
+  sodium_dv: 3
+  potassium: 47mg
+  potassium_dv: 1
+  total_carbohydrate: 12.1g
+  total_carbohydrate_dv: 4
+  dietary_fiber: 1g
+  dietary_fiber_dv: 2
+  sugars: 7.9g
+  protein: 1.2g
+  grade: D
+compare:
+  - Reduced calories from 110 to 82 per cookie.
+  - Reduced fat from 6g to 3.5g and saturated fat from 3.5g to 1.7g.
+  - Reduced sugar from 10g to 7.9g
+compare_recipe: DOUBLE-CHOCOLATE DREAM COOKIES
+compare_recipe_url: https://www.verybestbaking.com/recipes/30152/double-chocolate-dream-cookies/
+how: Reduce the fat and sugar, replace some butter with oil and some white flour with whole wheat.
+go_further:
+  - Try replacing another 1/4 cup white flour with whole wheat.
+  - Reduce chocolate chips to 1/2 cup.
+  - Chocolate chips differ significantly in nutrition with more fat and less sugar in higher cocoa chips.
+compare_nutrition:
+  serving_size: 1 cookie
+  calories: 110
+  calories_from_fat: 50
+  total_fat: 6g
+  saturated_fat: 3.5g
+  trans_fat:
+  cholesterol: 15mg
+  sodium: 80mg
+  total_carbohydrate: 16g
+  dietary_fiber: 1g
+  sugars: 10g
+  protein: 1g
+
