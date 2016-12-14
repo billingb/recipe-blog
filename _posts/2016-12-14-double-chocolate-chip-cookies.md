@@ -5,6 +5,8 @@ date:   2016-12-14 10:45:14
 categories: Dessert
 author: Brendan Billingsley
 recipe: double-chocolate-chip-cookies
+comments: true
+id: post20161214104514
 ---
 After creating my chocolate chip cookie recipe I knew the next step was making a double chocolate chip recipe I love.
 This recipe is my kids favorite cookie I make, and is frequently requested when I ask what to make. This recipe was 

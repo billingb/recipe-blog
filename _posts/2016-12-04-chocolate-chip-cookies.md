@@ -5,6 +5,8 @@ date:   2016-12-04 11:44:44
 categories: Dessert
 author: Brendan Billingsley
 recipe: chocolate-chip-cookies
+comments: true
+id: post20161204114444
 ---
 Chocolate chip cookies are the most requested recipe I make, and the first one I'll post here. This
  recipe took me years to develop with many false starts with alternative sweeteners and
