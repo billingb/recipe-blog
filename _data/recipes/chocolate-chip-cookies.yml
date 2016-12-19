@@ -5,6 +5,9 @@ date: 2016-10-01
 yield: 29 cookies
 active: 20 minutes
 total: 35 minutes
+prepTime: PT15M
+cookTime: PT10M
+totalTime: PT35M
 description: |
   My healthier but still dessert choclate chip cookie receipe is my go to for any occasion. This cookie always
   gets compliments and is often requested by friends and coworkers. These cookies are best if they aren't overcooked,

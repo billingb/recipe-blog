@@ -5,6 +5,9 @@ date: 2016-12-14
 yield: 28 cookies
 active: 20 minutes
 total: 35 minutes
+prepTime: PT15M
+cookTime: PT10M
+totalTime: PT35M
 description: |
   A double chocolate chip version of my classic chocolate chip cookies. These are my kids favorite cookie I bake.
   These cookies are best if they aren't overcooked, if in doubt pull them out a little sooner. If you like nuts

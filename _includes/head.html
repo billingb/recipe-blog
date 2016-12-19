@@ -3,8 +3,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
+  <title>{% if page.title %}{{ page.title }} - {% elsif site.data.recipes[page.recipe].name %}{{ site.data.recipes[page.recipe].name }} - {% endif %}{{ site.title }}</title>
+  <meta name="keywords" content="Recipe,Recipes,Brendan,Brendan's Home,Healthy,Nutrition,Whole">
+  <meta name="author" content="Brendan Billingsley">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
