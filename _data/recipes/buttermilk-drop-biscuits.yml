@@ -1,0 +1,80 @@
+name: Buttermilk Drop Biscuits
+url: buttermilk-drop-biscuits
+photo: ButtermilkDropBiscuits.jpg
+date: 2016-12-14
+yield: 12 biscuits
+active: 10 minutes
+total: 35 minutes
+prepTime: PT10M
+cookTime: PT20M
+totalTime: PT35M
+description: |
+  The buttermlik drop biscuits are an outstanding addition to almost any meal. They come together quickly and
+  are healthy enough you can have a second or third without much worry. I prefer to make them with oil, but if you
+  really need the taste of butter try half melted butter and half oil. You can make them in any pan or dish they fit in,
+  but I think a cast iron pan is the best option.
+ingredients_type: complex
+ingredients:
+  -
+    children:
+      - 2 C. Whole Wheat Flour
+      - 1 T. Baking Powder
+      - 1 T. Sugar
+      - 1 t. Salt
+      - 1/2 t. Baking Soda
+  -
+    children:
+      - 4 T. Canola Oil
+      - 1 1/2 C. Buttermilk
+  -
+    children:
+      - 1/2 C. Flour
+directions:
+  - Preheat oven to 500 degress. Prepare a pan (cast iron skillet, 8x8 baking pan) for the biscuits by rubbing it with a little oil or butter.
+  - Put 1/2 C. flour on plate or dish, this will be used to drop the biscuits into before putting in the pan.
+  - Mix 2 cups flour, baking powder, sugar, salt and baking soda in a bowl.
+  - Mix buttermilk and oil together and then add to flour mixture.
+  - Using a 1/4 cup measuring cup to scoop level amounts of dough scoop dough and drop into flour, you may need to use your finger to get the dough out of the cup. Now roll dough in flour so it is lightly coated, shake excess flour off and place into the prepared pan. When done place pan into the oven.
+  - Bake for 5 minutes at 500 degress, then reduce to 450 and bake for another 15 minutes. Cool the biscuits for a couple minutes and then flip the pan upside down on a plate. Break the biscuits apart and cool for a few minutes before serving.
+nutrition:
+  serving_size: 1 biscuit
+  calories: 134
+  calories_from_fat: 46
+  total_fat: 5.2g
+  total_fat_dv: 8
+  saturated_fat: .5g
+  saturated_fat_dv: 3
+  trans_fat: 0g
+  cholesterol: 1mg
+  cholesterol_dv: 3
+  sodium: 279mg
+  sodium_dv: 12
+  potassium: 195mg
+  potassium_dv: 6
+  total_carbohydrate: 19g
+  total_carbohydrate_dv: 6
+  dietary_fiber: 1g
+  sugars: 2.5g
+  protein: 3.2g
+  grade: B
+compare:
+  - Reduced calories from 182 to 134 per cookie.
+  - Reduced fat from 10g to 5g and saturated fat from 6g to .5g.
+  - Increased Nutrition Grade from C- to B
+compare_recipe: Williams-Sonoma Classic Baking Powder Biscuits
+compare_recipe_url: http://www.williams-sonoma.com/recipe/classic-baking-powder-biscuits.html
+how: Make biscuits using drop batter technique with lots of buttermilk and much less fat. Use oil instead of butter and whole wheat flour in place of white to improve nutrition.
+compare_nutrition:
+  serving_size: 1 biscuit
+  calories: 182
+  calories_from_fat: 88
+  total_fat: 9.8g
+  saturated_fat: 6.51g
+  trans_fat:
+  cholesterol: 26mg
+  sodium: 308mg
+  total_carbohydrate: 20.6g
+  dietary_fiber: 1g
+  sugars: 0.8g
+  protein: 3.2g
+
