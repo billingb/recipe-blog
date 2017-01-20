@@ -1,0 +1,72 @@
+name: Dave's Killer Bread Copycat
+url: daves-killer-bread-copycat
+photo: DavesKillerBreadCopycat.jpg
+date: 2017-01-20
+yield: 2 bread loves, 26 slices
+active: 15 minutes
+total:  2 1/2 hours
+prepTime: PT15M
+cookTime: PT35M
+totalTime: PT150M
+description: |
+  This is a wonderful bread with lots of flavor and texture. Inspired by Dave's Killer Bread, it shares most of those ingredients
+  while providing that homemade bread taste that can't be beat! The directions assume a stand mixer, but the
+  recipe should work fine with a bread machine or by hand technique.
+ingredients_type: complex
+ingredients:
+  -
+    children:
+      - 1 3/4 C. Water
+      - 1 T. Apple Cider Vinegar
+      - 2 T. Coconut Oil
+      - 2 T. Honey
+      - 1 T. Molasses
+  -
+    children:
+      - 4 C. Whole Wheat Flour
+      - 2 T. Vital Wheat Gluten
+      - 1 T. Salt
+      - 2 T. Yeast
+      - 2 T. Ground Flaxseed
+      - 2 T. Barley Flakes
+      - 2 T. Rolled Oats
+      - 2 T. Rye Flakes
+      - 2 T. Millet
+      - 2 T. Cornmeal
+      - 2 T. Quinoa
+      - 1 T. Buckwheat Flour
+  -
+    children:
+      - 1 t. Poppy Seeds
+      - 1 t. Sesame Seeds
+      - 2 T. Sunflower Seeds
+directions:
+  - Put water through molasses into mixer bowl. Add 2 cups whole wheat flour and vital wheat gluten through buckwheat.
+  - Mix on low for about 2 minutes until well combined. Add 1 cup flour and mix until fully incorporated. Add 1 more cup flour and mix for another minute.
+  - Add seeds and continue to mix for at least on more minute or until fully combined. If the dough looks to wet add a little more flour until it looks right (I've never need to do this).
+  - Rise in a wam place until double in bulk. Punch down and rise again for best texture, or skip second rise if you don't want to wait.
+  - Punch down and shape into two greased loaf pans. Rise until doubled in bulk, approximitely 45 minutes.
+  - Cook in 400 degree oven for approximitely 30 minutes until the bread sounds hollow when flicked.
+  - Remove from oven, remove the loaf from the pan and enjoy!
+nutrition:
+  serving_size: 1 slice (16 slices per loaf)
+  calories: 91
+  calories_from_fat: 17
+  total_fat: 2.1g
+  total_fat_dv: 3
+  saturated_fat: .9g
+  saturated_fat_dv: 4
+  trans_fat: 0g
+  cholesterol: 0mg
+  cholesterol_dv: 0
+  sodium: 253mg
+  sodium_dv: 17
+  potassium: 115mg
+  potassium_dv: 2
+  total_carbohydrate: 16g
+  total_carbohydrate_dv: 7
+  dietary_fiber: 2g
+  sugars: 2g
+  protein: 3g
+  grade: B
+
