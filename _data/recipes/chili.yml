@@ -1,0 +1,66 @@
+name: Chili
+url: chili
+photo: Chili.jpg
+date: 2017-02-07
+yield: 12 servings
+active: 30 minutes
+total: 3 hours
+prepTime: PT15M
+cookTime: PT150M
+totalTime: PT180M
+description: |
+  Very flavorful chili, one of my favorite comfort foods. This can be made with or without the ground turkey, or
+  substitute meat of your choice. I sometimes add a bottle of beer.
+ingredients_type: complex
+ingredients:
+  -
+    children:
+      - 1 C. Dry Kidney Beans (or 2 15oz cans drained)
+      - 1 C. Dry Black Beans (or 1 15oz can drained)
+      - 1 C. Dry Cannellini Beans (or 2 15oz cans drained)
+  -
+    children:
+      - 2 Onions, diced
+      - 1 T. Salt
+      - 2 Green Bell Peppers, diced
+      - 5 Garlic Cloves, diced
+      - 3/4 lb ground turkey (or leave out for veggie)
+  -
+    children:
+      - 1 T. Ground Cumin
+      - 3 T. Chili Powder
+      - 1 T. Cocoa
+      - 1 t. Oregano
+      - 1/2 t. Decaf Instant Coffee
+      - 1 t. Cayenne Red pepper (or less for mild)
+      - 1/2 t. Ground Black Pepper
+      - 4 15oz Cans Diced Tomotoes
+      - 1 6oz Can Tomato Paste
+      - 1 C. Water
+
+directions:
+  - Cook beans if using dry, I do this by soaking overnight and then cooking for 10 minutes in a pressure cooker.
+  - In a soup pot cook onions, green bell peppers, garlic and turkey with salt until onions and turkey are cooked.
+  - Add drained beans and cumin through water to soup pot. Add more water as needed for wetness you prefer. Cook over low heat for at least 1 hour, preferable a 2-3 hours for flavors to combine.
+
+nutrition:
+  serving_size: 1 cup
+  calories: 276
+  calories_from_fat: 34
+  total_fat: 3.8g
+  total_fat_dv: 6
+  saturated_fat: .9g
+  saturated_fat_dv: 4
+  trans_fat: 0g
+  cholesterol: 21mg
+  cholesterol_dv: 7
+  sodium: 930mg
+  sodium_dv: 39
+  potassium: 1387mg
+  potassium_dv: 30
+  total_carbohydrate: 46g
+  total_carbohydrate_dv: 15
+  dietary_fiber: 12g
+  sugars: 10g
+  protein: 19g
+  grade: A
