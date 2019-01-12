@@ -8,7 +8,7 @@ layout: default
   {% for recipe_hash in sorted_recipes %}
   {% assign recipe = recipe_hash[1] %}
   <li>
-    <a href="{{ recipe.url |p prepend:site.baseurl }}">{{ recipe.name }}</a>
+    <a href="{{ recipe.url | prepend:site.baseurl }}">{{ recipe.name }}</a>
   </li>
   {% endfor %}
 </ul>
