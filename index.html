@@ -14,7 +14,7 @@ layout: default
         {% for recipe_hash in sorted_recipes %}
         {% assign recipe = recipe_hash[1] %}
         <li>
-          <a href="/recipes/{{ recipe.url }}">{{ recipe.name }}</a>
+          <a href="recipes/{{ recipe.url }}">{{ recipe.name }}</a>
         </li>
         {% endfor %}
       </ul>
